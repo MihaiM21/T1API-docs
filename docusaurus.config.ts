@@ -152,14 +152,14 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
-    announcementBar: {
-      id: 'support_us',
-      content:
-        '⭐️ Star us on <a target="_blank" rel="noopener noreferrer" href="https://github.com/turnone">GitHub</a> | Join our community for F1 telemetry insights!',
-      backgroundColor: '#e10600',
-      textColor: '#ffffff',
-      isCloseable: true,
-    },
+    // announcementBar: {
+    //   id: 'support_us',
+    //   content:
+    //     '⭐️ Star us on <a target="_blank" rel="noopener noreferrer" href="https://github.com/turnone">GitHub</a> | Join our community for F1 telemetry insights!',
+    //   backgroundColor: '#e10600',
+    //   textColor: '#ffffff',
+    //   isCloseable: true,
+    // },
   } satisfies Preset.ThemeConfig,
 };
 
